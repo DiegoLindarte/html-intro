@@ -1,0 +1,20 @@
+h1{
+    color: brown;
+    background-color: black;
+    font-size: 50px;
+}
+
+.synopsis{
+    color: darkred;
+    background-color: black;
+    font-size: 25px;
+}
+
+#boton{
+    background-color: rgb(255, 0, 0);
+}
+
+html{
+    background-color: black;
+    color: brown;
+}
