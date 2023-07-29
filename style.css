@@ -1,20 +1,331 @@
-h1{
-    color: brown;
-    background-color: black;
-    font-size: 50px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.synopsis{
-    color: darkred;
-    background-color: black;
-    font-size: 25px;
+body {
+    background: rgb(137, 147, 124);
 }
 
-#boton{
-    background-color: rgb(255, 0, 0);
+.CV {
+    width: 100%;
+    height: 150px;
+    background: rgb(243, 232, 238);
+    transform: skewY(-5deg);
 }
 
-html{
-    background-color: black;
-    color: brown;
+.CV .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
 }
+
+.CV .content .HV {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(5deg);
+    text-align: end;
+    margin-bottom: 0;
+}
+
+.Info-General {
+    width: 90%;
+    height: auto;
+    background: rgb(243, 232, 238);
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.Info-General .Info-General2 {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px rgb(2, 2, 10) dashed;
+    margin: auto;
+    width: 600px;
+
+}
+
+.Info-General h3 {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.Info-General p {
+    color: rgb(137, 147, 124);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Exp {
+    width: 90%;
+    height: auto;
+    background: rgb(243, 232, 238);
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.Exp .Exp2 {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px rgb(2, 2, 10) dashed;
+    margin: auto;
+    width: 600px;
+
+}
+
+.Exp ul {
+    color: rgb(137, 147, 124);
+    font-family: 'Recursive', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-right: 20px;
+    
+}
+
+.Exp li {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    
+}
+
+.Exp p {
+    color: rgb(137, 147, 124);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+
+}
+
+.Habilidades {
+    width: 90%;
+    height: auto;
+    background: rgb(243, 232, 238);
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.Habilidades .Habilidades2 {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px rgb(2, 2, 10) dashed;
+    margin: auto;
+    width: 600px;
+
+}
+
+.Habilidades .H-Tabla {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-right: 20px;
+    margin: auto;
+    width: 600px;
+
+}
+
+.Habilidades thead {
+    background-color: #93032e;
+    border-bottom: solid 5px rgb(137, 147, 124);
+    color: #93032e;
+}
+
+.Habilidades tr {
+    color: rgb(137, 147, 124);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+
+}
+
+.Habilidades .HTML {
+    background-color: #e54c21;
+}
+
+.Habilidades .CSS {
+    background-color: #264DE4;
+}
+
+.Habilidades .JS {
+    background-color: #F7DF1E;
+}
+
+.Habilidades .PHP {
+    background-color: #777BB3;
+}
+
+.Habilidades .Msql {
+    background-color: #00618A;
+}
+
+.Habilidades .GIT {
+    background-color: #F05030;
+}
+
+.Habilidades th {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.Habilidades td {
+    color: rgb(137, 147, 124);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.Intereses {
+    width: 90%;
+    height: auto;
+    background: rgb(243, 232, 238);
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.Intereses .Intereses2 {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px rgb(2, 2, 10) dashed;
+    margin: auto;
+    width: 600px;
+
+}
+
+.Intereses .I-Tabla {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-right: 20px;
+    margin: auto;
+    width: 600px;
+
+}
+
+.Intereses thead {
+    background-color: #264DE4;
+    border-bottom: solid 5px rgb(137, 147, 124);
+    color: black;
+}
+
+.Intereses tr {
+    color: rgb(137, 147, 124);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+
+}
+
+.Intereses th {
+    color: rgb(2, 2, 10);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.Intereses td {
+    color: rgb(137, 147, 124);
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.input-container {
+    width: 280px;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: white;
+}
+
+.email-input {
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background: black;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all .3s;
+    color: white;
+}
+
+.label::before {
+    content: "";
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+
+.email-input:focus {
+    border: 2px solid red;
+}
+
+.email-input:focus+.label,
+.filled {
+    top: -10px;
+    color: red;
+    font-size: 14px;
+}
+
+.email-input::placeholder {
+    font-size: 16px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.email-input:focus::placeholder {
+    opacity: 1;
+    animation-delay: 0.2s;
+}
+

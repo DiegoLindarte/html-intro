@@ -3,78 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduccion a HTML</title>
+    <title>Hoja de Vida</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="synopsis" id="boton">Hoja de Vida</h1>
 
-        <h2>Informacion General</h2>
+    <div class="CV">
+        <div class="content">
+            <h1 class="HV">Hoja de Vida</h1>
+        </div>
+    </div>
+    
+        <div class="Info-General">
+                    <h2 class="Info-General2">Informacion General</h2>
+                    
+                        <h3>Nombres y Apellidos</h3>
+                            <p class="synopsis">Diego Andres Lindarte Chinchilla</p>
+                                <br>
+                        <h3>Email</h3>
+                            <p>dalindartech@gmail.com</p>
+                                <br>
+                        <h3>Telefono</h3>
+                            <p>3152154501</p>
+                                <br>
+                        <h3>Ubicacion Actual</h3>
+                            <p>Bogota</p>
+                                <br>
+                        <h3>Link GitHub</h3>
+                            <p>https://github.com/DiegoLindarte</p>
+                                <br>
+                        <h3>Link Linkedin</h3>
+                            <p>https://www.linkedin.com/in/diego-lindarte-229567224/</p>
+        </div>
 
-            <h3>Nombres y Apellidos</h3>
-                <p class="synopsis">Diego Andres Lindarte Chinchilla</p>
-            <h3>Email</h3>
-                <p>dalindartech@gmail.com</p>
-            <h3>Telefono</h3>
-                <p>3152154501</p>
-            <h3>Ubicacion Actual</h3>
-                <p>Bogota</p>
-            <h3>Link GitHub</h3>
-                <p>https://github.com/DiegoLindarte</p>
-            <h3>Link Linkedin</h3>
-                <p>https://www.linkedin.com/in/diego-lindarte-229567224/</p>
-
-        <h2>Experiencia</h2>
-
-            <ul>
-                <li>Outsourcing COS</li>
-                    <p>Asesor Call Center Claro</p>
-                <li>Wintukwa</li>
-                    <p>Auxiliar de Sitemas</p>
-            </ul>
-
-        <h2>Habilidades</h2>
-
-            <table>
-                <tr>
-                    <th>HTML</th>
-                    <th>CSS</th>
-                    <th>JavaScript</th>
-                    <th>PHP</th>
-                    <th>MySQL</th>
-                    <th>GIT</th>
-                </tr>
-                <tr>
-                    <td>Intermedio</td>
-                    <td>Intermedio</td>
-                    <td>Basico</td>
-                    <td>Intermedio</td>
-                    <td>Basico</td>
-                    <td>Basico</td>
-                </tr>
-            </table>
-        <h2>Intereses</h2>
-
-            <table>
-                <tr>
-                    <th>Diseño Web</th>
-                    <th>Aplicaciones Moviles</th>
-                    <th>Bases de Datos</th>
-                </tr>
-                <tr>
-                    <td>Alto</td>
-                    <td>Intermedio</td>
-                    <td>Intermedio</td>
-                </tr>
-            </table>
+        <div class="Exp">
+            <h2 class="Exp2">Experiencia</h2>
+            
+                <ul>
+                    <li>Outsourcing COS</li>
+                        <p>Asesor Call Center Claro</p>
+                    <li>Wintukwa</li>
+                        <p>Auxiliar de Sitemas</p>
+                </ul>
+        </div>
+        
+        <div class="Habilidades">
+            <h2 class="Habilidades2">Habilidades</h2>
+            
+                <table class="H-Tabla">
+                    <thead>
+                        <tr>
+                            <th class="HTML">HTML</th>
+                            <th class="CSS">CSS</th>
+                            <th class="JS">JavaScript</th>
+                            <th class="PHP">PHP</th>
+                            <th class="Msql">MySQL</th>
+                            <th class="GIT">GIT</th>
+                        </tr>
+                    </thead>
+                    
+                    <tr>
+                        <td>Intermedio</td>
+                        <td>Intermedio</td>
+                        <td>Basico</td>
+                        <td>Intermedio</td>
+                        <td>Basico</td>
+                        <td>Basico</td>
+                    </tr>
+                </table>
+        </div>
+        
+        <div class="Intereses">
+            <h2 class="Intereses2">Intereses</h2>
+            
+                <table class="I-Tabla">
+                    <thead>
+                        <tr>
+                            <th>Diseño Web</th>
+                            <th>Aplicaciones Moviles</th>
+                            <th>Bases de Datos</th>
+                        </tr>
+                    </thead>
+                    
+                    <tr>
+                        <td>Alto</td>
+                        <td>Intermedio</td>
+                        <td>Intermedio</td>
+                    </tr>
+                </table>
+        </div>
+        
+    <br>
+    
+    <form>
+        <div class="input-container">
+            <input type="email" name="email" id="email" autocomplete="off" placeholder="Ingresa tu Correo" class="email-input" required>
+        
+            <label for="email" class="label">Correo</label>
+        </div>
+    </form>
 
     <br>
-    <label for="email">Email</label>
-    <input type="email" name="email">
-    <br>
+    
     <textarea name="texto1" id="texto1" cols="30" rows="10"></textarea>
+    
     <br>
+    
     <button id="boton">Contactar</button>
-
+    
 </body>
 </html>
